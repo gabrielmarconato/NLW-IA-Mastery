@@ -1,0 +1,23 @@
+{
+  "name": "upload-ai-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prisma": "^5.12.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@fastify/multipart": "^8.2.0",
+    "@prisma/client": "^5.12.1",
+    "fastify": "^4.26.2",
+    "tsx": "^4.7.2"
+  }
+}
